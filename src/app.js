@@ -149,15 +149,16 @@ const App = () => {
     ref.set(genData());
   };
 
+  // <Button
+  //   onClick={() => {
+  //     reset();
+  //   }}
+  // >
+  //   Reset
+  // </Button>
+
   return (
     <Container fluid="md">
-      <Button
-        onClick={() => {
-          reset();
-        }}
-      >
-        Reset
-      </Button>
       <Row>
         <Col>
           <h1>Draft picks</h1>
